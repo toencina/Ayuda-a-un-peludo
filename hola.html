@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adopción de gatos</title>
+	<style>
+		/* Agregamos algunos estilos básicos */
+		.gato {
+			width: 200px;
+			height: 200px;
+			margin: 10px;
+			position: relative;
+			float: left;
+		}
+		.gato img {
+			width: 100%;
+			height: 100%;
+		}
+		.gato .info {
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0,0,0,0.5);
+			color: #fff;
+			padding: 10px;
+			box-sizing: border-box;
+			transition: all 0.3s ease-in-out;
+			transform: rotateY(180deg);
+		}
+		.gato:hover .info {
+			display: block;
+			transform: rotateY(0deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="gato">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Stray_calico_cat_near_Sagami_River-01.jpg/640px-Stray_calico_cat_near_Sagami_River-01.jpg" alt="Gato 1">
+		<div class="info">
+			<h2>Gato 1</h2>
+			<p>Edad: 2 años</p>
+			<p>Sexo: Macho</p>
+			<p>Personalidad: Juguetón y cariñoso</p>
+		</div>
+	</div>
+	<div class="gato">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Stray_calico_cat_near_Sagami_River-01.jpg/640px-Stray_calico_cat_near_Sagami_River-01.jpg alt="Gato 2">
+		<div class="info">
+			<h2>Gato 2</h2>
+			<p>Edad: 3 años</p>
+			<p>Sexo: Hembra</p>
+			<p>Personalidad: Tranquila y afectuosa</p>
+		</div>
+	</div>
+	<div class="gato">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Stray_calico_cat_near_Sagami_River-01.jpg/640px-Stray_calico_cat_near_Sagami_River-01.jpg" alt="Gato 3">
+		<div class="info">
+			<h2>Gato 3</h2>
+			<p>Edad: 1 año</p>
+			<p>Sexo: Macho</p>
+			<p>Personalidad: Curioso y amistoso</p>
+		</div>
+	</div>
+</body>
+</html>
