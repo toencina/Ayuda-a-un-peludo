@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Adopción de animales</title>
+  <style>
+    /* Estilo para la imagen */
+    .animal-img {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      position: relative;
+      cursor: pointer;
+    }
+
+    /* Estilo para la información del gato */
+    .animal-info {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      transition: opacity 0.5s;
+    }
+
+    /* Estilo para mostrar la información del gato al pasar el cursor sobre la imagen */
+    .animal-img:hover .animal-info {
+      display: block;
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="animal-row">
+    <div class="animal">
+      <img src="https://thumbs.dreamstime.com/b/retrato-lindo-del-gato-foto-cuadrada-105311158.jpg" alt="Gato 1"
+        class="animal-img">
+      <div class="animal-info">
+        <h2>Nombre del gato 1</h2>
+        <p>Edad: 2 años</p>
+        <p>Sexo: Macho</p>
+        <p>Descripción: Este gato es muy cariñoso y le gusta jugar con las personas.</p>
+      </div>
+    </div>
+    <div class="animal">
+      <img src="https://thumbs.dreamstime.com/b/retrato-lindo-del-gato-foto-cuadrada-105311158.jpg" alt="Gato 2"
+        class="animal-img">
+      <div class="animal-info">
+        <h2>Nombre del gato 2</h2>
+        <p>Edad: 1 año</p>
+        <p>Sexo: Hembra</p>
+        <p>Descripción: Esta gata es muy juguetona y le gusta explorar su entorno.</p>
+      </div>
+    </div>
+    <div class="animal">
+      <img src="https://thumbs.dreamstime.com/b/retrato-lindo-del-gato-foto-cuadrada-105311158.jpg" alt="Gato 3"
+        class="animal-img">
+      <div class="animal-info">
+        <h2>Nombre del gato 3</h2>
+        <p>Edad: 3 años</p>
+        <p>Sexo: Macho</p>
+        <p>Descripción: Este gato es muy tranquilo y le gusta dormir la mayor parte del día.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
